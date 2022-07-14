@@ -1,0 +1,22 @@
+{
+  "name": "Flats Filter",
+  "description": "Nope.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "run_at": "document_idle",
+      "js": [
+        "script.js"
+      ],
+      "matches": [
+        "https://*/*",
+        "http://*/*"
+      ]
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "scripting"
+  ]
+}
