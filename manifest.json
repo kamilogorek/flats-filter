@@ -15,6 +15,12 @@
       ]
     }
   ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Mark all entries as hidden."
+  },
   "permissions": [
     "tabs",
     "scripting"

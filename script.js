@@ -49,6 +49,7 @@
     let filtered = false;
 
     const btn = document.createElement("button");
+    btn.dataset.id = "flats_filter";
     btn.innerText = HIDE_TEXT;
 
     for (let key in BTN_STYLE) {
